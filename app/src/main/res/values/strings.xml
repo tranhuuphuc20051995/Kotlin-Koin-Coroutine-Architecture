@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinKoinCoroutineMVVM</string>
+    <string name="error_not_connected">Connection error, please check your internet connection</string>
+    <string name="please_wait">Please wait...</string>
+</resources>
