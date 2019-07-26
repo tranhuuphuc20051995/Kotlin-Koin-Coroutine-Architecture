@@ -36,7 +36,7 @@ val networkModule = module {
         // Add debug interceptors.
         if (BuildConfig.DEBUG) {
             clientBuilder.addInterceptor(HttpLoggingInterceptor().apply {
-                level = HttpLoggingInterceptor.Level.BASIC
+                level = HttpLoggingInterceptor.Level.BODY
             })
             clientBuilder.addNetworkInterceptor(StethoInterceptor())
         }
