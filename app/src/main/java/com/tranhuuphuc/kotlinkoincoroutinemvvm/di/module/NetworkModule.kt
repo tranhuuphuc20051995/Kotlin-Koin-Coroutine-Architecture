@@ -3,7 +3,9 @@ package com.tranhuuphuc.kotlinkoincoroutinemvvm.di.module
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.BuildConfig
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.apis.MovieApi
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.MovieInteractor
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.impl.MovieInteractorImpl
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.services.MovieService
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.NetworkManager
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -53,9 +55,12 @@ val networkModule = module {
             .build()
     }
 
-    single<MovieApi> {
+    single<MovieService> {
         val retrofit = get<Retrofit>()
-        retrofit.create(MovieApi::class.java)
+        retrofit.create(MovieService::class.java)
     }
 
+    single<MovieInteractor> {
+        MovieInteractorImpl(get())
+    }
 }

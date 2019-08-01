@@ -1,4 +1,4 @@
-package com.tranhuuphuc.kotlinkoincoroutinemvvm.apis
+package com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.services
 
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Video
@@ -12,7 +12,7 @@ import retrofit2.http.Query
 /**
  * Created by TranHuuPhuc on 2019-07-27.
  */
-interface MovieApi {
+interface MovieService {
     @GET("movie/now_playing")
     fun getNowPlaying(
         @Query("api_key") apiKey: String,

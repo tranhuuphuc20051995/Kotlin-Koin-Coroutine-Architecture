@@ -2,6 +2,8 @@ package com.tranhuuphuc.kotlinkoincoroutinemvvm.models
 
 import android.os.Parcelable
 import androidx.recyclerview.widget.DiffUtil
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 import java.util.*
@@ -9,8 +11,12 @@ import java.util.*
 /**
  * Created by TranHuuPhuc on 3/25/19.
  */
+@Entity
 @Parcelize
 class Movie : Parcelable, Comparable<Movie> {
+    @PrimaryKey
+    @SerializedName("id")
+    var id: Int? = null
     @SerializedName("genre_ids")
     var genreIds: List<Int>? = null
     @SerializedName("adult")
@@ -26,8 +32,6 @@ class Movie : Parcelable, Comparable<Movie> {
     var genres: List<Genre>? = null
     @SerializedName("homepage")
     var homepage: String? = null
-    @SerializedName("id")
-    var id: Int? = null
     @SerializedName("imdb_id")
     var imdbId: String? = null
     @SerializedName("original_language")
