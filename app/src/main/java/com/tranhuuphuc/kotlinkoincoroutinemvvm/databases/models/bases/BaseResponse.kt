@@ -1,4 +1,4 @@
-package com.tranhuuphuc.kotlinkoincoroutinemvvm.models.bases
+package com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.bases
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

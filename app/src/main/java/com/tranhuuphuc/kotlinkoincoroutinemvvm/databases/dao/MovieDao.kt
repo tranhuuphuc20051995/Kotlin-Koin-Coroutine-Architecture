@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
 
 /**
  * Created by TranHuuPhuc on 2019-08-02.

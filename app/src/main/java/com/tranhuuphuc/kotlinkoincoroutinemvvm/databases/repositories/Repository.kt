@@ -1,6 +1,6 @@
 package com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.repositories
 
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
 
 interface Repository {
     fun clear()

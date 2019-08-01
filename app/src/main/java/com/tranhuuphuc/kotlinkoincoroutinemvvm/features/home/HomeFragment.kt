@@ -7,7 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.R
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.base.BaseFragment
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.Resource
 import kotlinx.android.synthetic.main.fragment_home.*
 import org.koin.androidx.viewmodel.ext.android.viewModel

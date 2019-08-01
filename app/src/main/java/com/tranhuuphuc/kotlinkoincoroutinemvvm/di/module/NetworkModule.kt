@@ -6,7 +6,7 @@ import com.tranhuuphuc.kotlinkoincoroutinemvvm.BuildConfig
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.MovieInteractor
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.impl.MovieInteractorImpl
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.services.MovieService
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.NetworkManager
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.managers.network.NetworkManager
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidApplication

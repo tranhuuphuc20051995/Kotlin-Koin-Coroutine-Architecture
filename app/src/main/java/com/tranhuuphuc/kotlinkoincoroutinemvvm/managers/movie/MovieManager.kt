@@ -1,8 +1,8 @@
 package com.tranhuuphuc.kotlinkoincoroutinemvvm.managers.movie
 
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Video
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.bases.BaseResponse
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Video
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.bases.BaseResponse
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.Resource
 
 /**

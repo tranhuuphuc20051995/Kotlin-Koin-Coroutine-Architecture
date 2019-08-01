@@ -1,4 +1,4 @@
-package com.tranhuuphuc.kotlinkoincoroutinemvvm.models
+package com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models
 
 import android.os.Parcelable
 import androidx.recyclerview.widget.DiffUtil

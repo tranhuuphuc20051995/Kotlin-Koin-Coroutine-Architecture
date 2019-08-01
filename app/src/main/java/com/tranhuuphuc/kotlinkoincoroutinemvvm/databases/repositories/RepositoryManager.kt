@@ -1,7 +1,7 @@
 package com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.repositories
 
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.AppDatabase
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
 
 class RepositoryManager(private val database: AppDatabase) : Repository.MovieRepository {
     override suspend fun insert(movie: Movie): Boolean {

@@ -1,9 +1,9 @@
 package com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.impl
 
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.BuildConfig
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Video
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.bases.BaseResponse
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Video
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.bases.BaseResponse
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.MovieInteractor
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.services.MovieService
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.safeApiCall

@@ -5,8 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.managers.movie.MovieManager
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.bases.BaseResponse
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.bases.BaseResponse
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.Event
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.Resource
 import kotlinx.coroutines.launch

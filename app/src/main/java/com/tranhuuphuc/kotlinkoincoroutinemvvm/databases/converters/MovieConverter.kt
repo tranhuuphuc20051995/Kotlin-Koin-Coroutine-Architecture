@@ -3,7 +3,7 @@ package com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.converters
 import androidx.room.TypeConverter
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.*
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.*
 
 /**
  * Created by TranHuuPhuc on 2019-08-02.

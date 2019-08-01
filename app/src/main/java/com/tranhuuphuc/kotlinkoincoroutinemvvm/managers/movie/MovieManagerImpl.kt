@@ -2,10 +2,10 @@ package com.tranhuuphuc.kotlinkoincoroutinemvvm.managers.movie
 
 import com.google.gson.Gson
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.repositories.RepositoryManager
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.models.Movie
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.databases.models.Movie
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.networks.interactors.MovieInteractor
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.ErrorResponse
-import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.NetworkManager
+import com.tranhuuphuc.kotlinkoincoroutinemvvm.managers.network.NetworkManager
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.Resource
 import com.tranhuuphuc.kotlinkoincoroutinemvvm.utils.toObject
 import kotlinx.coroutines.Dispatchers
