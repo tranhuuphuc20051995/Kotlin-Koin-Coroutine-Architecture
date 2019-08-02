@@ -52,48 +52,43 @@ dependencies {
     implementation "com.google.android.material:material:1.1.0-alpha08"
 
     // Android Arch
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleKtxVersion"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleKtxVersion"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleKtxVersion"
+    implementation Config.lifecycle_extensions
+    implementation Config.lifecycle_viewmodel
+    implementation Config.lifecycle_runtime
+    implementation Config.lifecycle_livedata
 
     // Navigation
-    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
-    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+    implementation Config.navigation_fragment
+    implementation Config.navigation_ui
 
     // Room
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-    implementation "androidx.room:room-ktx:$room_version"
+    implementation Config.room_runtime
+    kapt Config.room_compiler
+    implementation Config.room_ktx
 
     // Load Image
-    kapt "com.github.bumptech.glide:compiler:$glideVersion"
-    implementation "com.github.bumptech.glide:glide:$glideVersion"
-
-    // Epoxy
-    //implementation 'com.airbnb.android:epoxy:3.5.1'
-    //kapt 'com.airbnb.android:epoxy-processor:3.5.1'
-    //implementation 'com.airbnb.android:epoxy-paging:2.18.0'
+    kapt Config.glide_compiler
+    implementation Config.glide
 
     //Paging Component
-    implementation "androidx.paging:paging-runtime-ktx:$pagingKtxVersion"
+    implementation Config.paging
 
     // Kotlin
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+    implementation Config.kotlin_stdlib
+    implementation Config.kotlin_coroutines_core
+    implementation Config.kotlin_coroutines_android
 
     // Koin
-    implementation 'org.koin:koin-androidx-viewmodel:2.0.0'
+    implementation Config.koin
 
     // Retrofit
-    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
-    implementation "com.squareup.retrofit2:converter-moshi:$retrofit_version"
-    implementation 'com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2'
+    implementation Config.retrofit
+    implementation Config.converter_moshi
+    implementation Config.retrofit2_kotlin_coroutines_adapter
 
     // Okhttp
-    implementation "com.squareup.okhttp3:okhttp:$okhttp3Version"
-    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3Version"
+    implementation Config.okhttp
+    implementation Config.logging_interceptor
 
     // Gson
     implementation 'com.google.code.gson:gson:2.8.5'
